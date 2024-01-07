@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device width, initial-scale=1.0">
+        <title>Forms in HTML</title>
+        </head>    
+    <body>
+        <form>           
+                <label for="Details">Personal Details </label><br><br>
+                <label for="salutation">Salutation: </label><br>
+                <select is="salutation" name="salutation">
+                    <option value="none">--None--</option>
+                    <option value="mr">Mr.</option>
+                    <option value="mrs">Mrs.</option>
+                
+                </select>
+                <br><br>
+
+                <label for="firstname">First name: </label>
+                <input type="text" id="firstname" name="firstname" placeholder="abcd" required><br>
+                <br>
+                <label for="lastname">Last name: </label>
+                <input type="text" id="lastname" name="lastname" placeholder="abcd" required>
+                <br><br>
+                
+                <label for="gender">Gender: </label> 
+                <input type="radio" name="gender" id="gender" value="male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="female">
+                <label for="gender">Female</label>
+               
+
+                <br><br>
+                <label for="email">Email:  </label>
+                <input type="email" id="email" name="email" placeholder="abc@gmail.com" required><br>
+                <br><br>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" id="dob">
+                <br><br>
+               
+                <label for="address">Address: </label><br>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea>
+           
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+       
+        </form>
+        
+    </body>
+
+</html>
+
